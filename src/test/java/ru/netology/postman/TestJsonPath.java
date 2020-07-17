@@ -23,7 +23,7 @@ public class TestJsonPath {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("11.12.2019"))
+                .body("data", equalTo("11.11.2019"))
         ;
     }
 }
